@@ -8,47 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		69568A1A1E57FE17000F10D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A191E57FE17000F10D4 /* main.m */; };
-		69568A1D1E57FE17000F10D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A1C1E57FE17000F10D4 /* AppDelegate.m */; };
-		69568A201E57FE17000F10D4 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A1F1E57FE17000F10D4 /* GameViewController.m */; };
-		69568A231E57FE17000F10D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69568A211E57FE17000F10D4 /* Main.storyboard */; };
-		69568A261E57FE17000F10D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69568A241E57FE17000F10D4 /* LaunchScreen.storyboard */; };
 		69568A301E57FE17000F10D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A2F1E57FE17000F10D4 /* main.m */; };
-		69568A331E57FE17000F10D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A321E57FE17000F10D4 /* AppDelegate.m */; };
-		69568A361E57FE17000F10D4 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A351E57FE17000F10D4 /* GameViewController.m */; };
-		69568A391E57FE17000F10D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69568A371E57FE17000F10D4 /* Main.storyboard */; };
-		69568A3B1E57FE17000F10D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69568A0C1E57FE17000F10D4 /* Actions.sks */; };
-		69568A3C1E57FE17000F10D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69568A0C1E57FE17000F10D4 /* Actions.sks */; };
-		69568A3D1E57FE17000F10D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69568A0D1E57FE17000F10D4 /* GameScene.sks */; };
-		69568A3E1E57FE17000F10D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69568A0D1E57FE17000F10D4 /* GameScene.sks */; };
-		69568A3F1E57FE17000F10D4 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A0F1E57FE17000F10D4 /* GameScene.m */; };
-		69568A401E57FE17000F10D4 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A0F1E57FE17000F10D4 /* GameScene.m */; };
 		69568A411E57FE17000F10D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69568A101E57FE17000F10D4 /* Assets.xcassets */; };
 		69568A421E57FE17000F10D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69568A101E57FE17000F10D4 /* Assets.xcassets */; };
+		69568A571E57FF2B000F10D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A4C1E57FF2B000F10D4 /* AppDelegate.m */; };
+		69568A581E57FF2B000F10D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A4C1E57FF2B000F10D4 /* AppDelegate.m */; };
+		69568A591E57FF2B000F10D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A4E1E57FF2B000F10D4 /* ViewController.m */; };
+		69568A5A1E57FF2B000F10D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A4E1E57FF2B000F10D4 /* ViewController.m */; };
+		69568A5B1E57FF2B000F10D4 /* mbc_inner_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 69568A4F1E57FF2B000F10D4 /* mbc_inner_loop.c */; };
+		69568A5C1E57FF2B000F10D4 /* mbc_inner_loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 69568A4F1E57FF2B000F10D4 /* mbc_inner_loop.c */; };
+		69568A5D1E57FF2B000F10D4 /* MBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A501E57FF2B000F10D4 /* MBScrollView.m */; };
+		69568A5E1E57FF2B000F10D4 /* MBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A501E57FF2B000F10D4 /* MBScrollView.m */; };
+		69568A5F1E57FF2B000F10D4 /* mbc_calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69568A511E57FF2B000F10D4 /* mbc_calc.c */; };
+		69568A601E57FF2B000F10D4 /* mbc_calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69568A511E57FF2B000F10D4 /* mbc_calc.c */; };
+		69568A611E57FF2B000F10D4 /* TiledMBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A521E57FF2B000F10D4 /* TiledMBView.m */; };
+		69568A621E57FF2B000F10D4 /* TiledMBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69568A521E57FF2B000F10D4 /* TiledMBView.m */; };
+		69568A641E57FFA1000F10D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69568A631E57FFA1000F10D4 /* Main.storyboard */; };
+		69568A671E580015000F10D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69568A651E580015000F10D4 /* Main.storyboard */; };
+		69568A681E580015000F10D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69568A661E580015000F10D4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69568A0C1E57FE17000F10D4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		69568A0D1E57FE17000F10D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		69568A0E1E57FE17000F10D4 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		69568A0F1E57FE17000F10D4 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		69568A101E57FE17000F10D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69568A151E57FE17000F10D4 /* MandFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69568A191E57FE17000F10D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69568A1B1E57FE17000F10D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		69568A1C1E57FE17000F10D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69568A1E1E57FE17000F10D4 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		69568A1F1E57FE17000F10D4 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		69568A221E57FE17000F10D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69568A251E57FE17000F10D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69568A271E57FE17000F10D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69568A2C1E57FE17000F10D4 /* MandFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69568A2F1E57FE17000F10D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69568A311E57FE17000F10D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		69568A321E57FE17000F10D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69568A341E57FE17000F10D4 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		69568A351E57FE17000F10D4 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		69568A381E57FE17000F10D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69568A3A1E57FE17000F10D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69568A4B1E57FF2B000F10D4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69568A4C1E57FF2B000F10D4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69568A4D1E57FF2B000F10D4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69568A4E1E57FF2B000F10D4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69568A4F1E57FF2B000F10D4 /* mbc_inner_loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mbc_inner_loop.c; sourceTree = "<group>"; };
+		69568A501E57FF2B000F10D4 /* MBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBScrollView.m; sourceTree = "<group>"; };
+		69568A511E57FF2B000F10D4 /* mbc_calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mbc_calc.c; sourceTree = "<group>"; };
+		69568A521E57FF2B000F10D4 /* TiledMBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledMBView.m; sourceTree = "<group>"; };
+		69568A531E57FF2B000F10D4 /* MBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBScrollView.h; sourceTree = "<group>"; };
+		69568A541E57FF2B000F10D4 /* mbc_calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbc_calc.h; sourceTree = "<group>"; };
+		69568A551E57FF2B000F10D4 /* mbc_inner_loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbc_inner_loop.h; sourceTree = "<group>"; };
+		69568A561E57FF2B000F10D4 /* TiledMBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledMBView.h; sourceTree = "<group>"; };
+		69568A631E57FFA1000F10D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		69568A651E580015000F10D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		69568A661E580015000F10D4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69568A691E596C33000F10D4 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		69568A6A1E597F6B000F10D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 		69568A061E57FE17000F10D4 = {
 			isa = PBXGroup;
 			children = (
+				69568A6A1E597F6B000F10D4 /* README.md */,
+				69568A691E596C33000F10D4 /* LICENSE.txt */,
 				69568A0B1E57FE17000F10D4 /* Shared */,
 				69568A171E57FE17000F10D4 /* iOS */,
 				69568A2D1E57FE17000F10D4 /* tvOS */,
@@ -82,10 +88,18 @@
 		69568A0B1E57FE17000F10D4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				69568A0C1E57FE17000F10D4 /* Actions.sks */,
-				69568A0D1E57FE17000F10D4 /* GameScene.sks */,
-				69568A0E1E57FE17000F10D4 /* GameScene.h */,
-				69568A0F1E57FE17000F10D4 /* GameScene.m */,
+				69568A4B1E57FF2B000F10D4 /* AppDelegate.h */,
+				69568A4C1E57FF2B000F10D4 /* AppDelegate.m */,
+				69568A4D1E57FF2B000F10D4 /* ViewController.h */,
+				69568A4E1E57FF2B000F10D4 /* ViewController.m */,
+				69568A4F1E57FF2B000F10D4 /* mbc_inner_loop.c */,
+				69568A501E57FF2B000F10D4 /* MBScrollView.m */,
+				69568A511E57FF2B000F10D4 /* mbc_calc.c */,
+				69568A521E57FF2B000F10D4 /* TiledMBView.m */,
+				69568A531E57FF2B000F10D4 /* MBScrollView.h */,
+				69568A541E57FF2B000F10D4 /* mbc_calc.h */,
+				69568A551E57FF2B000F10D4 /* mbc_inner_loop.h */,
+				69568A561E57FF2B000F10D4 /* TiledMBView.h */,
 				69568A101E57FE17000F10D4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -103,12 +117,8 @@
 		69568A171E57FE17000F10D4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				69568A1B1E57FE17000F10D4 /* AppDelegate.h */,
-				69568A1C1E57FE17000F10D4 /* AppDelegate.m */,
-				69568A1E1E57FE17000F10D4 /* GameViewController.h */,
-				69568A1F1E57FE17000F10D4 /* GameViewController.m */,
-				69568A211E57FE17000F10D4 /* Main.storyboard */,
-				69568A241E57FE17000F10D4 /* LaunchScreen.storyboard */,
+				69568A651E580015000F10D4 /* Main.storyboard */,
+				69568A661E580015000F10D4 /* LaunchScreen.storyboard */,
 				69568A271E57FE17000F10D4 /* Info.plist */,
 				69568A181E57FE17000F10D4 /* Supporting Files */,
 			);
@@ -126,11 +136,7 @@
 		69568A2D1E57FE17000F10D4 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				69568A311E57FE17000F10D4 /* AppDelegate.h */,
-				69568A321E57FE17000F10D4 /* AppDelegate.m */,
-				69568A341E57FE17000F10D4 /* GameViewController.h */,
-				69568A351E57FE17000F10D4 /* GameViewController.m */,
-				69568A371E57FE17000F10D4 /* Main.storyboard */,
+				69568A631E57FFA1000F10D4 /* Main.storyboard */,
 				69568A3A1E57FE17000F10D4 /* Info.plist */,
 				69568A2E1E57FE17000F10D4 /* Supporting Files */,
 			);
@@ -227,11 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69568A3D1E57FE17000F10D4 /* GameScene.sks in Resources */,
-				69568A231E57FE17000F10D4 /* Main.storyboard in Resources */,
-				69568A3B1E57FE17000F10D4 /* Actions.sks in Resources */,
-				69568A261E57FE17000F10D4 /* LaunchScreen.storyboard in Resources */,
+				69568A681E580015000F10D4 /* LaunchScreen.storyboard in Resources */,
 				69568A411E57FE17000F10D4 /* Assets.xcassets in Resources */,
+				69568A671E580015000F10D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,10 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69568A391E57FE17000F10D4 /* Main.storyboard in Resources */,
-				69568A3E1E57FE17000F10D4 /* GameScene.sks in Resources */,
 				69568A421E57FE17000F10D4 /* Assets.xcassets in Resources */,
-				69568A3C1E57FE17000F10D4 /* Actions.sks in Resources */,
+				69568A641E57FFA1000F10D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69568A1D1E57FE17000F10D4 /* AppDelegate.m in Sources */,
-				69568A201E57FE17000F10D4 /* GameViewController.m in Sources */,
-				69568A3F1E57FE17000F10D4 /* GameScene.m in Sources */,
+				69568A571E57FF2B000F10D4 /* AppDelegate.m in Sources */,
+				69568A5D1E57FF2B000F10D4 /* MBScrollView.m in Sources */,
 				69568A1A1E57FE17000F10D4 /* main.m in Sources */,
+				69568A591E57FF2B000F10D4 /* ViewController.m in Sources */,
+				69568A611E57FF2B000F10D4 /* TiledMBView.m in Sources */,
+				69568A5B1E57FF2B000F10D4 /* mbc_inner_loop.c in Sources */,
+				69568A5F1E57FF2B000F10D4 /* mbc_calc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,41 +269,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69568A331E57FE17000F10D4 /* AppDelegate.m in Sources */,
-				69568A361E57FE17000F10D4 /* GameViewController.m in Sources */,
-				69568A401E57FE17000F10D4 /* GameScene.m in Sources */,
+				69568A581E57FF2B000F10D4 /* AppDelegate.m in Sources */,
+				69568A5E1E57FF2B000F10D4 /* MBScrollView.m in Sources */,
 				69568A301E57FE17000F10D4 /* main.m in Sources */,
+				69568A5A1E57FF2B000F10D4 /* ViewController.m in Sources */,
+				69568A621E57FF2B000F10D4 /* TiledMBView.m in Sources */,
+				69568A5C1E57FF2B000F10D4 /* mbc_inner_loop.c in Sources */,
+				69568A601E57FF2B000F10D4 /* mbc_calc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		69568A211E57FE17000F10D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69568A221E57FE17000F10D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		69568A241E57FE17000F10D4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69568A251E57FE17000F10D4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		69568A371E57FE17000F10D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69568A381E57FE17000F10D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		69568A431E57FE17000F10D4 /* Debug */ = {
@@ -389,7 +370,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9MY4PM59H4;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourid.MandFree;
 				PRODUCT_NAME = MandFree;
@@ -405,7 +386,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9MY4PM59H4;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourid.MandFree;
 				PRODUCT_NAME = MandFree;
@@ -426,7 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourid.MandFree;
 				PRODUCT_NAME = MandFree;
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
@@ -441,7 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourid.MandFree;
 				PRODUCT_NAME = MandFree;
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
